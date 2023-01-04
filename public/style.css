@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0F8FF;
+    font-family: 'McLaren', cursive;
+}
+
+header {
+   padding:1rem 2rem;
+   background-color: #FDD037;
+   text-align:center;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+header h1{
+    color:white;
+}
+footer {
+    color:#71797E;
+    font-weight: 200;
+    width:100%;
+    text-align: center;
+    height:2rem;
+}
+.Dictionary{
+    margin:2rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    margin-bottom: 2rem;
+    padding:1rem 2rem;
+    max-width:22rem;
+    background-color: #fff;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: all 100ms ease-in-out;
+    text-align: center;
+}
+.card .emoji{
+    display: block;
+    margin:1rem auto;
+    font-size:400%;
+}
+.card .title{
+    font-size: 200%;
+    color:#FDD037;
+}
+dt{
+    margin-bottom: 1rem;
+}
